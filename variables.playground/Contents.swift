@@ -35,3 +35,20 @@ let second = 3
 let result2 = Double(Int(first) * second)
 
 print("Convert \(result2)")
+
+
+
+let isPresent: Bool = true
+print("isPresent \(isPresent)")
+
+if (message2=="Srivastava"){
+    print("TRUE1")
+}
+
+if  age > 30 {
+    print("OLD")
+}else if age > 50 {
+    print("OLDER")
+}
+
+ 
