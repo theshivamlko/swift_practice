@@ -52,3 +52,59 @@ if  age > 30 {
 }
 
  
+
+var array = [1,2,3,4,5,6]
+print(array)
+array.append(100)
+print(array)
+
+array=array+[500]
+
+for a in array {
+    print(a)
+}
+
+// Array
+var array2 = [Int]()
+var array3 = [Int](repeating: 0,count:3)
+array3.append(200)
+print(array3)
+
+var array4:[String] = ["A","B","C"]
+print(array4)
+
+
+array4.forEach { it in
+    print("Index \(it)")
+}
+
+
+var i=0
+
+repeat{
+    print("repeat1")
+  if array[i] % 2==0{
+        print("repeat \(i) \(array[i])")
+    }
+    i+=1
+} while(i < array.count)
+
+
+for x in 1...5{
+    print("for1 \(x)")
+}
+
+for x in 1..<5{
+    print("for2 \(x)")
+}
+
+for x in 0..<array.count{
+    print("for3 \(x)")
+}
+
+var res=0
+for x in 0...11 {
+    res += x
+}
+print("res \(res)")
+
